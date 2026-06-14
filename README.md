@@ -37,33 +37,10 @@ Los datos están incluidos dentro del HTML para permitir la apertura directa de 
 Abrir el archivo:
 
 ```text
-outputs/mineria_dashboard.html
-```
-
-### Servidor local
-
-También puede ejecutarse desde un servidor HTTP:
-
-```bash
-python -m http.server 8000 --directory outputs
-```
-
-Luego ingresar a:
-
-```text
-http://localhost:8000/mineria_dashboard.html
+outputs/Index.html
 ```
 
 ## Estructura
-
-```text
-.
-├── README.md
-├── outputs/
-│   ├── mineria_dashboard.html
-│   └── mapa_datos_completos.csv
-└── work/
-```
 
 La aplicación está desarrollada con HTML, CSS y JavaScript, sin necesidad de un proceso de compilación. Para la visualización geográfica utiliza [Leaflet](https://leafletjs.com/) y [OpenStreetMap](https://www.openstreetmap.org/).
 
@@ -77,11 +54,10 @@ La aplicación está desarrollada con HTML, CSS y JavaScript, sin necesidad de u
 
 ## Autoría
 
-Proyecto desarrollado por **[Tu nombre]**.
+Proyecto desarrollado por **Silvana Sánchez Di Domenico**.
+https://www.linkedin.com/in/silvana-s%C3%A1nchez-di-domenico/ 
 
-Soy una persona interesada en el análisis de datos, la visualización de información pública y el desarrollo de herramientas digitales que faciliten la comprensión de temas productivos y territoriales. Este proyecto busca transformar una base estadística compleja en una experiencia clara, accesible e interactiva.
-
-> Antes de publicar el repositorio, reemplazá `[Tu nombre]` y ajustá esta introducción con tu profesión, especialidad o enlaces personales.
+Economista, especialista en el análisis de datos, la visualización de información pública y el desarrollo de herramientas digitales que faciliten la comprensión de temas productivos y territoriales. Este proyecto busca transformar una base estadística compleja en una experiencia clara, accesible e interactiva.
 
 ## Consideraciones
 
